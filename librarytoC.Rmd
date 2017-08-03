@@ -4,7 +4,6 @@ author: "Bernd Gruber"
 date: "3 August 2017"
 output:
   pdf_document: default
-  html_document: default
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
