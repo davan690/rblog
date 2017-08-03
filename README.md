@@ -4,9 +4,9 @@ output:
   pdf_document: default
 ---
 # green-striped-geckos R blog
+-----
 
-
-**This repository is meant to provide short snippets of code and other stuff that I get repeatedly asked from colleagues and students. Not sure how much it will grow let's see. **
+This repository is meant to provide short snippets of code and other stuff that I get repeatedly asked from colleagues and students. Not sure how much it will grow let's see. 
 -------
 ### How to use this blog:
 
