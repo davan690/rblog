@@ -9,7 +9,7 @@ output:
 This repository is meant to provide short snippets of code and other stuff that I get repeatedly asked from colleagues and students. Not sure how much it will grow let's see. 
 How to use this blog:
 
-There will be Easiest is to click on the rmd file in the repository that should render the snippet and you can copy paste the code and follow the instructions.
+There will be a pdf, html and rmd version. Easiest is to click on the rmd file in the repository that should render the snippet and you can copy paste the code and follow the instructions, but feel free to use the html or pdf version.
 
 
 | blog        |  Description  |
