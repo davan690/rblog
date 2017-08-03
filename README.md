@@ -11,6 +11,6 @@ How to use this blog:
 There will be a pdf and rmd version. Easiest is to click on the rmd file in the repository that should render the snippet and you can copy paste the code and follow the instructions, but feel free to use the pdf version.
 
 
-| blog        |  Description  |
-|---------------|-------------------------------------------------------------------|
-|[**librarytoC**](https://github.com/green-striped-gecko/rblog/blob/master/librarytoC.Rmd) | How to change you R library folder to C (if after install it has been set to a location you do not like (e.g. to a folder on the network))
+| blog        |  topic | Description  |
+|---------------|------------|-------------------------------------------------------|
+|[**librarytoC**](https://github.com/green-striped-gecko/rblog/blob/master/librarytoC.Rmd) | R general | How to change you R library folder to C (if after install it has been set to a location you do not like (e.g. to a folder on the network))
