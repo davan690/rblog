@@ -1,0 +1,40 @@
+---
+title: "library"
+author: "Bernd Gruber"
+date: "3 August 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How to change the R library folder at startup
+
+Info: R uses the path that is provided by the ```.libPaths()``` function. You can check you current folder via:
+
+```{r, eval=FALSE}
+.libPaths()
+```
+
+
+
+This documents describes a simple way to change the directory folder at startup in R:
+
+1.	Go to your R etc folder on C: (should be something like c:\Program Files\R\R-3.3.2\etc\
+2.	Make sure there is not already a file called “Renviron.site”
+3.	Copy the Renviron.site file to that folder: c:\Program Files\R\R-3.3.2\etc\
+4.	If you have already a file called Renviron.site (this is a text file open it with wordpad, notepad whatever text editor and simply add the single line that is in the file, namely: 
+
+R_LIBS='C:/PROGRAM FILES/R/library'
+
+5.	Restart R studio and now your path to the library is c:/program files/R/library 
+6.	You can check that via typing
+
+```{r}
+.libPaths()[1]
+```
+
+
+**Please note you may need to change the write access of the library folder (so R is allowed to write to that folder) using the normal window method. Right click on the folder in the explorer, check the security tab and change the permissons for that folder to be writable.**
+
