@@ -13,4 +13,4 @@ There will be a pdf and rmd version. Easiest is to click on the rmd file in the 
 
 | blog        |  Description  |
 |---------------|-------------------------------------------------------------------|
-|**librarytoC** | How to change you R library folder to C (if after install it has been set to a location you do not like (e.g. to a folder on the network))
+|[**librarytoC**](https://github.com/green-striped-gecko/rblog/blob/master/librarytoC.Rmd) | How to change you R library folder to C (if after install it has been set to a location you do not like (e.g. to a folder on the network))
