@@ -136,12 +136,12 @@ $(document).ready(function () {
 </ol>
 <p>R_LIBS=‘C:/PROGRAM FILES/R/library’</p>
 <ol start="5" style="list-style-type: decimal">
+<li><p>Create an empty folder called library at the location specified in the file (e.g. C:/PROGRAM FILES/R/). Note you may need to change the write access of the library folder (so R is allowed to write to that folder) using the normal Windows method (or whatever system you are working with). For Windows: Right click on the folder in the Explorer, select the Security tab and change the permissons for that folder to be writable for the intended user.</p></li>
 <li>Restart R studio and now your path to the library is c:/program files/R/library</li>
-<li>You can check that via typing</li>
+<li><p>You can check that via typing</p></li>
 </ol>
 <pre class="r"><code>.libPaths()[1]</code></pre>
 <pre><code>## [1] &quot;C:/Program Files/R/library&quot;</code></pre>
-<p><strong>Please note you may need to change the write access of the library folder (so R is allowed to write to that folder) using the normal window method. Right click on the folder in the explorer, check the security tab and change the permissons for that folder to be writable.</strong></p>
 </div>
 
 
